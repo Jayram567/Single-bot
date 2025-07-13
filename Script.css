@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#signals {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.asset {
+  border: 2px solid #444;
+  padding: 20px;
+  border-radius: 10px;
+  width: 120px;
+  background: #222;
+  box-shadow: 0 0 10px #0f0;
+}
+
+.status {
+  font-size: 20px;
+  font-weight: bold;
+}
